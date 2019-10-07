@@ -28,25 +28,22 @@
            ├── ...
 
     └── celebA
-           ├── train
-               ├── 000001.png 
-               ├── 000002.png
-               └── ...
-           ├── test
-               ├── a.jpg (The test image that you wanted)
-               ├── b.png
-               └── ...
-           ├── list_attr_celeba.txt (For attribute information) 
+       ├── train
+           ├── 000001.png 
+           ├── 000002.png
+           └── ...
+       ├── test
+           ├── a.jpg (The test image that you wanted)
+           ├── b.png
+           └── ...
+       ├── list_attr_celeba.txt (For attribute information) 
 ```
-
 ### Train
-```
-> python main.py --dataset flower
-```
+* python main.py --dataset celebA --phase train
 
 ### Test
-```
-> python main.py --dataset flower --phase test
+* python main.py --dataset celebA --phase test 
+* The celebA test image and the image you wanted run simultaneously
 
 
 ## Comparison
