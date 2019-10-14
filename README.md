@@ -51,8 +51,10 @@
   <img src="./assets/teaser.png" width = '665px' height = '426px'>
 </div>
 
-## Our results
-will be soon
+## Paper results
+<div align="center">
+  <img src="./assets/result.png">
+</div>
 
 
 ## Author
